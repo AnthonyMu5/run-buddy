@@ -150,6 +150,23 @@ section
     text-align: center;
 }
 
+/* intro paragraph */
+.intro p
+{
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+/* what you do section */
+.steps 
+{
+    text-align: center;
+    background-color: #fce138;
+}
+
 /* sections titles */
 .section-title
 {
@@ -170,23 +187,6 @@ section
 .secondary-border
 {
     border-color: #39a6b2;
-}
-
-/* intro paragraph */
-.intro p
-{
-    line-height: 1.7;
-    color: #39a6b2;
-    width: 80%;
-    font-size: 20px;
-    margin: 0 auto;
-}
-
-/* what you do section */
-.steps 
-{
-    text-align: center;
-    background-color: #fce138;
 }
 
 .steps div
@@ -216,4 +216,32 @@ section
 .steps span
 {
     font-size: 38px;
+}
+
+/* trainers selection */
+.trainers 
+{
+    text-align: center;
+}
+
+.trainer
+{
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: #024e76;
+    color: #fce138;
+    overflow: auto;
+}
+
+.trainer img
+{
+    width: 35%;
+    float: left;
+}
+
+.trainer-bio
+{
+    padding: 35px;
+    float: left;
+    width: 65%;
 }
